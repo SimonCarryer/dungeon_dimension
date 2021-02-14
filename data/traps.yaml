@@ -1,0 +1,128 @@
+attack:
+  setback: 3, 5
+  dangerous: 6, 8
+  deadly: 9, 12
+
+save:
+  setback: 10, 11
+  dangerous: 12, 15
+  deadly: 16, 20
+
+damage:
+  4:
+    setback: 1
+    dangerous: 2
+    deadly: 4
+  10:
+    setback: 2
+    dangerous: 4
+    deadly: 10
+  16:
+    setback: 4
+    dangerous: 10
+    deadly: 18
+  20:
+    setback: 10
+    dangerous: 18
+    deadly: 24
+
+jerry-rigged:
+  telltales:
+    - concealed ropes
+    - rearranged furnishings
+    - suspicious footprints
+    - a peep-hole
+  trigger:
+    - a hidden observer
+    - a tripwire
+
+mechanical:
+  telltales:
+    - visible wires
+    - loose stones
+    - oddly-constructed masonry
+    - suspicious slits or gaps
+    - a hollow sound
+    - the smell of grease
+    - unusual wear-patterns
+    - discoloured stone
+    - bloodstains
+    - scratches in the stonework
+    - the sound of a spring under tension
+  trigger:
+    - turning a door handle
+    - pressure plate
+    - tripwire
+    - picking up an object
+    - opening a door
+    - opening a chest or cupboard
+    - upsetting a carefully-balanced statue
+  effect:
+    4:
+      - name: Pitfall
+        effect: Save or fall, incurring ${damage} damage.
+      - name: Spear
+        effect: Attack roll as ${attack}HD, causing ${damage} damage.
+      - name: Arrow
+        effect: Attack roll as ${attack}HD, causing ${damage} damage.
+      - name: Falling object
+        effect: The object causes ${damage} damage in a 10' radius. Save to avoid the damage.
+      - name: Poison Needle
+        effect: Save or take ${damage} damage.
+      - name: Falling object
+        effect: The object causes ${damage} damage. Save to avoid the damage.
+      - name: Legcatcher
+        effect: The target is restrained. On their turn, they can make a save to escape. Failing this save, they take ${damage} damage.
+      - name: Scything blade
+        effect: Attack roll as ${attack}HD, causing ${damage} damage.
+      - name: Poison gas
+        effect: The gas causes ${damage} damage to everyone in the room. Save for half.
+      - name: Hail of arrows
+        effect: Everyone in a 15' radius takes ${damage} damage. Save for half damage.
+magical:
+  telltales:
+    - hair standing on end
+    - a finely inscribed rune
+    - the smell of a spell component
+    - a feeling of being watched
+    - discoloured stone
+    - unusual wear-patterns
+    - distant chimes
+    - a premonition of danger
+    - a faint rumbling sound
+    - sooty or slimy residue
+  trigger:
+    - reading a rune
+    - standing on a sigil
+    - interacting with an object
+    - being seen by a statue
+    - making any sound
+    - touching a symbol
+    - crossing between two statues
+    - failing to speak the safe word
+    - touching a gemstone
+  effect:
+    4:
+      - name: Burst of Flame
+        effect: The flame causes ${damage} damage to everyone in a 30' cone. Save for half.
+      - name: Fear spell
+        effect: The target makes a save, or is frightened of the source of the spell - usually a statue or carved image.
+      - name: Blinding spell
+        effect: The target makes a save, or is blinded. The condition ends after a short rest.
+      - name: Lightning
+        effect: The bolt strikes anyone in the room who fails a save, for ${damage} damage.
+      - name: Eyebeams
+        effect: The beams make an attack roll as ${attack}HD, causing ${damage} damage.
+      - name: Sleep spell
+        effect: Everyone in the room must make a save or fall unconscious. The effect ends after an hour, or if the target is woken.
+      - name: Burst of Flame
+        effect: The flame causes ${damage} damage (save for half) to everyone in a 30' cone.
+      - name: Rotting Curse
+        effect: The cursed victim takes 1d6 damage every turn until they can succeed on a saving throw.
+      - name: Fear spell
+        effect: The target makes a save, or must flee from the source of the spell.
+      - name: Blinding spell
+        effect: The target makes a save, or is blinded. The condition ends after an hour.
+      - name: Lightning
+        effect: The bolt strikes anyone in the room who fails a save, for ${damage} damage.
+  

@@ -1,0 +1,44 @@
+golden age:
+  powers:
+    - Divination - the mummy can answer one question on any topic
+    - Blessing of Wisdom - the mummy can bestow +1 Wisdom
+    - Blessing of Health - the mummy can bestow +1 Constitution
+    - Healing - the mummy completely restores all hit points, cures diseases, and removes curses
+    - Possession - a chosen victim must save or be possessed by the mummy (save every day)
+  protection:
+    - Aura of Fear - everyone must save or bow in awe
+    - Read Minds - the mummy can read the thoughts of anyone who fails a saving throw
+    - Cloud of Sand - the mummy can transform into a cloud of sand
+  appearance:
+    - a human form wearing a serene mask of gold (worth 200sp) and pure white linen bindings
+    - a skull peering from a glittering suit of beaten-copper armour
+    - a glowing light with a whispering voice
+    - a perfectly lifelike human being with ebony skin and yellow eyes
+fallen age:
+  powers:
+    - Snakes - dozens of venomous snakes pour from its orifices (1hp, attack save or die)
+    - Rotting - a victim touched by the mummy must save or begin rotting, losing 1d4 constitution each round
+    - Mastery - a victim making eye contact must save or do the mummy's bidding (save every hour)
+    - None - the mummy's powers have faded
+    - Visions - a chosen victim must save or be incapacitated with horrifying visions
+  protection:
+    - Locust Form - the mummy can transform into a swarm of locusts
+    - Stench - everyone rolls at -4 due to the smell
+    - Illusions - attacks on the mummy have a 50% chance of striking an illusion
+  appearance:
+    - a slime-coated skeleton
+    - a grand suit of bronze armour containing filthy linens
+    - a pool of black foulness
+    - a desiccated human corpse in decaying linen wrapping
+sun worship:
+  powers:
+    - Healing - the mummy completely restores all hit points, cures diseases, and removes curses
+    - Blessing of Health - the mummy can bestow +1 Constitution
+    - Lordship - a chosen victim must save or do the mummy's psychic bidding (save every day)
+    - Blinding Light - everyone must save or be blinded for 24 hours
+  protection:
+    - Furnace Body - weapons which strike the mummy melt into slag
+    - Brilliant Glare - attacks on the mummy are at -4
+  appearance:
+    - a suit of brightly-burnished copper armour wearing a featureless sun-disc mask
+    - a pillar of flame with a roaring voice

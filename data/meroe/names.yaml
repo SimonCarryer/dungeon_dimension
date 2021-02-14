@@ -1,0 +1,83 @@
+golden age:
+  names:
+    title:
+      - King
+      - Queen
+      - Prince
+      - Princess
+      - Councillor
+    first:
+      - Natak
+      - Aman
+      - Nawide
+      - Shanak
+      - Arqad
+      - Anatak
+      - Sho
+    middle:
+      - ""
+      - na
+      - tek
+      - ro
+    last:
+      - mani
+      - tori
+      - heto
+      - renas
+      - tef
+  gods:
+    - $name
+    - The God of the Dead
+    - The King of the Overworld
+    - The Lord of Judgement
+    - The Queen of Rebirth
+    - The Sword King
+    - The Fire Queen
+fallen age:
+  names:
+    title:
+      - King
+      - Queen
+      - Lord
+    first:
+      - Amon
+      - Tamil
+      - Teqer
+      - Maleqo
+      - Lakhi
+      - Shorka
+    middle:
+      - ""
+    last:
+      - mani
+      - tori
+      - heto
+      - renas
+      - tef
+  gods:
+    - The God of Beasts
+    - The Queen of Cats
+    - The King of Hell
+    - The Crocodile Queen
+    - The Heart Eater
+sun worship:
+  names:
+    title:
+      - King
+    first:
+      - Amon
+      - Amun
+    middle:
+      - rho
+      - kho
+      - i
+      - sho
+    last:
+      - mani
+      - tori
+      - heto
+      - renas
+      - tef
+  gods:
+    - the Sun
+    - the Sun King

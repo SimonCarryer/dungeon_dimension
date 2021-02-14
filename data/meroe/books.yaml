@@ -1,0 +1,29 @@
+golden age:
+  - title: Book of Names
+    contents: Records the names of several important personages.
+  - title: Book of Signs
+    contents: Contains information on interpreting various oracular signs.
+  - title: Book of Deeds
+    contents: Records the accomplishments of $name
+  - title: Book of Prayers
+    contents: Details a complex ritual for petitioning $god.
+  - title: Book of Secrets
+    contents: Contains the text of a spell - $spell
+  - title: Words of Power
+    contents: Contains secret words allowing the user to control some of the tomb's defenders
+fallen age:
+  - title: Lore book
+    contents: Contains the text of a spell - $spell
+  - title: Book of Beasts
+    contents: Contains a ritual for summoning $god.
+  - title: Book of the Dead
+    contents: Details instructions for the preparation of bodies for burial, or resurrection.
+  - title: Book of $name
+    contents: Details the accomplishments of $name.
+sun worship:
+  - title: Book of the Sun
+    contents: Praise of ${god}.
+  - title: Names of the Blessed
+    contents: History book
+  - title: Sins of the Past
+    contents: Contains the text of a spell - $spell

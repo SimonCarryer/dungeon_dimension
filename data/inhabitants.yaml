@@ -1,0 +1,96 @@
+jailers:
+  habitat: prison
+  types:
+    - name: Brute
+      role: troops
+      occurrence: common
+      HD: 1
+      AC: as leather
+      attack: 1d4 whip or 1d6 club
+    - name: Inquisitor
+      role: leader
+      occurrence: common
+      HD: 3
+      AC: as leather
+      attack: 1d6 injector
+      special: save vs. paralysis
+    - name: Beast
+      role: elite
+      occurrence: uncommon
+      HD: 3
+      AC: as chain
+      attack: 1d8/1d8 swords or 1d12 axe
+    - name: Master
+      role: leader
+      occurrence: uncommon
+      HD: 4
+      AC: special
+      attack: none
+      special: save vs. possession
+    - name: Victim
+      role: pet
+      occurrence: common
+      HD: 1
+      AC: no armour
+      attack: 1d4 chains
+  signs:
+    - Distant screams can be heard.
+    - Something bloody has been dragged across the floor.
+    - There is a pervading sense of doom.
+    - There is a sound of dragging chains.
+    - The word "GUILTY" has been scrawled in fresh blood.
+    - An escaped captive is hiding in this room.
+    - Voices whisper inside your head, accusing you of terrible crimes.
+    - You can hear the clanging of a gong.
+    - A dead body hangs from a hook in the ceiling.
+    - Several captives are chained to the walls
+organics:
+  habitat: organic
+  types:
+    - name: Maker
+      role: troops
+      occurrence: common
+      HD: 1
+      AC: as chain
+      attack: 1d6 bite
+      special: dissolve 1d4
+  signs:
+    - You hear scuttling sounds.
+    - The air is uncomfortably moist.
+    - There's a noxious smell in the air.
+dead:
+  habitat: ossuary
+  types:
+    - name: Bones
+      role: solo
+      occurrence: common
+      HD: 4
+      AC: as chain
+      attack: 1d4 bite/1d6 jagged bones
+      special: split
+    - name: Hair
+      role: natural hazard
+      occurrence: common
+      HD: 3
+      AC: none
+      attack: 1d6 strangle
+    - name: Flesh
+      role: natural hazard
+      occurrence: common
+      HD: 2
+      AC: none
+      attack: none
+      special: envelop
+    - name: Soul
+      role: natural hazard
+      occurrence: common
+      HD: 1
+      AC: none
+      attack: shriek 1d4
+      special: save or flee
+  signs:
+    - A smell of upturned earth and long-buried things.
+    - A stillness to the air.
+    - The stench of something rotten.
+    - A clacking of teeth.
+    - Worn footprints, as if left by feet over hundreds of years.

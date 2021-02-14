@@ -1,0 +1,82 @@
+prison:
+  rooms:
+    - name: Cells
+      description: Barred cells line each side of this hallway.
+      tags: [guarded, important]
+    - name: Oubliettes
+      description: There are a half-dozen 20' deep pits in the floor of this vaulted chamber.
+      tags: [guarded]
+    - name: Torture-chamber
+      description: Cruel implements hang from the walls.
+      tags: [guarded]
+    - name: Empty
+      description: A disused room filled with discarded items.
+      tags: [treasure]
+    - name: Cell
+      description: A single large cell formed by iron bars fills the center of this room.
+    - name: Empty
+      description: There's nothing here.
+    - name: Display Room
+      description: A long, arch-roofed hall with alcoves in the walls displaying grisly trophies.
+      tags: [trap]
+    - name: Accusation Room
+      description: A raised gallery runs around the sides of this room. In the center of the room is a solitary chair.
+      tags: [important]
+    - name: Confessions Room
+      description: This room's walls are full of recessed niches holding enormous scrolls, on which are written confessions of innumerable crimes.
+      tags: [library]
+    - name: Penitence Room
+      description: This long room has a large heap of fist-sized rocks at one end, and a smaller heap at the other.
+    - name: Weighing Room
+      description: There is an enormous set of scales here.
+      tags: [important]
+    - name: Cell
+      description: One half of this room is sectioned off by iron bars, with a locked door.
+    - name: Cell
+      description: The floor of this room is made of iron grillwork. Beneath is a cell.
+      tags: [guarded]
+    - name: Storage
+      description: This room's walls are covered in shelves and drawers, filled with personal effects.
+      tags: [dead-end, treasure]
+    - name: Hallway
+      description: A broad corridor.
+      tags: [important]
+    - name: Storage
+      description: Mountains of weird junk are stored here, statues, boxes, piles of rags.
+      tags: [dead-end, trap, treasure]
+  secret passages:
+    - A grille can be prized open, allowing access to this narrow ventilation shaft.
+    - The stonework is cunningly devised to hide this doorway.
+    - A loose stone can be prised out, creating an opening to a room beyond.
+ossuary:
+  rooms:
+    - name: Crypt
+      description: Niches in the walls of this room hold long-dead bodies.
+      tags: [guarded, treasure]
+    - name: Hallway
+      description: A bare stone hallway, wide and long.
+      tags: [important]
+    - name: Empty
+      description: This room is empty.
+    - name: False Crypt
+      description: This room appears to be a crypt, but all the tombs are empty.
+      tags: [dead-end, trap]
+    - name: Ossuary
+      description: Neatly-stacked bones line the walls of this room, and decorate the ceiling and floors.
+      tags: [guarded]
+    - name: Crypt
+      description: There is a large sarcophagus in the center of this room.
+      tags: [guarded, treasure, trap]
+    - name: Chapel
+      description: A small chapel here is richly decorated with religious paraphernalia.
+      tags: [treasure]
+    - name: Coffin Room
+      description: Wooden coffins are stacked high around the walls of this room.
+      tags: [guarded]
+    - name: Burial Chamber
+      description: This is the burial chamber of someone wealthy or powerful. There is a single large tomb, surrounded by the coffins of several lesser figures.
+      tags: [trap, treasure]
+  secret passages:
+    - Behind a statue there is a hidden entrance to this secret passage.
+    - This passageway is concealed behind a hidden panel
+

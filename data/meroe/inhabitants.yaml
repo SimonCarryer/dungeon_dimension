@@ -1,0 +1,180 @@
+golden age:
+  types:
+    - name: Eternal
+      role: natural hazard
+      occurrence: common
+      HD: 2
+      AC: as plate
+      attack: 1d6/1d6 khopesh
+      description: An animated skeleton of bronze.
+    - name: Brass Scorpion
+      role: solo
+      occurrence: common
+      HD: 3
+      AC: as plate
+      attack: 1d10 pincer tail
+      description: A giant animated brass scorpion-thing.
+    - name: Golden Beetles
+      role: solo
+      occurrence: common
+      AC: as chain
+      HD: 3
+      attack: 1d4/1d4/1d4 swarm
+      description: A swarm of golden-coloured mechanical beetles.
+  signs:
+    - A clacking sound
+    - The smell of grease
+    - Hair standing on end
+  valuables:
+    - A gold dish worth 300sp
+    - An onyx figurine worth 100sp
+    - A bronze sword (magical, +1)
+    - A jewelled scepter worth 400sp
+    - Lapis-lazuli beads worth 20sp
+    - Ancient silver coins worth 80sp
+    - A ceremonial orb of polished semiprecious stone, worth 50sp
+    - 500sp worth of golden ornaments
+    - A lapis-lazuli chest plate worth 50sp
+    - Aromatic resin worth 20sp
+    - A phial of perfume worth 20sp
+    - A talisman against evil in the shape of an eye - adds +1 to saving throws against magic
+fallen age:
+  types:
+    - name: Slave Spirit
+      role: natural hazard
+      occurrence: common
+      HD: 1
+      AC: none
+      attack: 1d4 claws
+      description: A spirit bound in eternal servitude.
+    - name: Bones
+      role: solo
+      occurrence: common
+      HD: 3
+      AC: as chain
+      attack: 1d4/1d4/1d4 jagged bones
+      description: An animated heap of bones.
+  signs:
+    - A distant wailing sound
+    - A feeling of forboding
+    - The sound of weeping
+  valuables:
+    - A silver dish worth 100sp
+    - An oil lamp that, when lit, repels undead
+    - A quartz figurine worth 50sp
+    - An aromatic ointment worth 10sp
+    - An iron sword (magical, +1)
+    - A tub of pigment worth 5sp
+    - Ancient copper coins worth 10sp
+    - Pyrite ingots worth 5sp
+    - Carved wooden animal figurines (worthless)
+    - A ceremonial dagger of copper, worth 20sp
+    - An erotic serpentine sculpture, worth 50sp
+sun worship:
+  types:
+    - name: Flame Warden
+      role: solo
+      occurrence: common
+      HD: 4
+      AC: none
+      attack: fire 1d6 30' cone
+      description: An eternal ball of flame.
+    - name: Solar Monk
+      role: natural hazard
+      occurrence: common
+      AC: as leather
+      HD: 1
+      attack: 1d8 solar ray
+      description: Undead monk with radiant sun-disk mask.
+  signs:
+    - Unnatural heat
+    - Scorch marks
+  valuables:
+    - A golden disc worth 400sp
+    - Ancient gold coins worth 100sp
+    - A bronze mace (magical, +1)
+    - A golden figurine of a winged sun worth 200sp
+    - A string of citrine beads worth 20sp
+bandits:
+  types:
+    - name: Bandit
+      role: troops
+      occurrence: common
+      HD: 1
+      AC: as leather
+      attack: 1d6 sword
+      description: A desperate desert-dweller
+    - name: Bandit leader
+      occurrence: common
+      HD: 2
+      AC: as leather
+      role: leader
+      attack: 1d8 sword
+      description: A cutthroat leader of bad men
+    - name: Hyena
+      occurrence: rare
+      HD: 1
+      AC: as leather
+      role: pet
+      attack: 1d8 bite and trip
+      description: A trained hyena
+  signs:
+    - Tied up captives, tribute from a neighbouring tribe or victims kidnapped in a recent raid.
+    - A cache of food, water, and other supplies.
+    - An escaped slave or captive, hiding or fleeing pursuit.
+    - A fire-pit, recently used.
+    - The smell of hookah smoke.
+    - Markings for a board-game scratched into a flat surface.
+    - A distinct smell of urine.
+    - Bedrolls and sleeping-mats strewn about.
+    - Broken glass and the smell of liquor.
+  valuables:
+    - A sack of looted silverware worth 50sp
+    - A strong-box filled with 100sp in coins
+    - Stolen gems worth 200sp
+    - A jewelled dagger worth 100sp
+    - Wine-casks worth 50sp
+    - A fine rug worth 20sp
+    - A map showing the location of a cache of loot
+beasts:
+  types:
+    - name: Lion
+      occurrence: common
+      role: natural hazard
+      HD: 2
+      AC: as leather
+      attack: 1d4/1d4/1d8 claw/claw/bite
+      description: It's a lion
+    - name: Giant Scorpion
+      occurrence: rare
+      role: solo
+      HD: 3
+      AC: as plate
+      attack: 1d6 sting
+      special: Poison - Save or die
+    - name: Giant Centipede
+      occurrence: uncommon
+      role: natural hazard
+      attack: 1d4 bite
+      special: Poison - save or be sickened
+      AC: as chain
+      HD: 1
+    - name: Hyena
+      occurrence: rare
+      HD: 1
+      AC: as leather
+      role: natural hazard
+      attack: 1d8 bite and trip
+      description: A trained hyena
+  signs:
+    - A mangled carcass, partly devoured.
+    - A confusion of muddy prints.
+    - A heap of debris and mouldering leaf-litter mounded into a stinking nest.
+    - Heaps of dung, containing fragments of bone.
+    - A well-chewed bone.
+    - A trail of blood, as if something has been dragged.
+    - A creature's young - still blind and crawling.
+  valuables:
+    - A human corpse still carrying a purse of 20sp
+    - Scattered coins worth 10sp
+    - Ragged, torn clothing and a sword belt with a well-made sword.

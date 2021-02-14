@@ -1,0 +1,25 @@
+entrance:
+  blocked:
+    - The passageway is barred by a heavy slab of stone.
+    - An unseen force resists attempts to enter the passage.
+    - Stone double-doors in the passage are sealed by a complicated knot.
+  trapped:
+    - Entering the passage triggers a blinding spell (save or be blinded for 24 hours).
+    - Entering the passage triggers a crippling spell (save or lose 2d6 points of strength).
+    - Entering the passage triggers a fear spell (save or run away).
+    - Entering the passage releases a cloud of biting flies (1d4 damage every round unless dispersed).
+  description:
+    - This passageway is wide and elaborately decorated.
+    - Twin statues guard the entrance to this passageway.
+  key:
+    - The wards are disabled by saying the name of ${name}.
+    - The wards can be disabled by chanting prayers to ${god}.
+    - The wards can be disabled by destroying a guardian statue.
+    - These wards cannot be disabled.
+crypt:
+  description:
+    - The walls of this room are covered with carved ${pattern}.
+    - This room is entirely painted in ${colour} plaster, except for a carved ${shape} on the back wall.
+  valuables:
+    - 2,000sp worth of gemstones and jewelry.
+    - Implements and figurines of gold, worth 1,500sp.

@@ -1,0 +1,7 @@
+*/__pycache__/*
+__pycache__/*
+dungeon_env/*
+.ipynb_checkpoints/*
+.vscode/*
+.DS_Store
+front_end/*

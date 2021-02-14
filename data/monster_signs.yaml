@@ -1,0 +1,254 @@
+- sign: A totem pole covered in grisly trophies.
+  tags: [savage, humanoid]
+- sign: A camp-fire, with still-smoldering embers.
+  tags: [humanoid]
+- sign: A makeshift barricade made of rubble and debris, bristling with spikes.
+  tags: [humanoid]
+- sign: Far-off laughter echoing on the edge of hearing.
+  tags: [magical]
+- sign: A mangled carcass, partly devoured.
+  tags: [savage]
+- sign: The sound of distant drumming.
+  tags: [savage, humanoid]
+- sign: Discarded armour, damaged beyond repair.
+  tags: [humanoid]
+- sign: A chill in the air.
+  tags: [undead]
+- sign: A confusion of muddy prints.
+  tags: [beast]
+- sign: Boot prints - several people marching in single file.
+  tags: [humanoid]
+- sign: A crude shrine to a hideous deity.
+  tags: [humanoid, savage]
+- sign: Grey-green eggshells in a filthy nest.
+  tags: [cave-dweller]
+- sign: A heap of debris and mouldering leaf-litter mounded into a stinking nest.
+  tags: [beast]
+- sign: A trail of slime.
+  tags: [cave-dweller]
+- sign: The stink of rotting meat.
+  tags: [savage]
+- sign: The smell of cheap tobacco.
+  tags: [humanoid]
+- sign: A lingering smell of wood smoke from a cooking fire..
+  tags: [humanoid]
+- sign: Indistinct shouting voices.
+  tags: [humanoid]
+- sign: A smell of upturned earth and long-buried things.
+  tags: [undead]
+- sign: A trail of fresh blood.
+  tags: [savage]
+- sign: Markings for a board-game scratched into a flat surface.
+  tags: [humanoid]
+- sign: Claw-marks high on an exposed surface.
+  tags: [beast]
+- sign: The reek of ammonia - territorial scent markings.
+  tags: [beast]
+- sign: A distinct smell of urine.
+  tags: [humanoid]
+- sign: Heaps of dung, containing fragments of bone.
+  tags: [beast]
+- sign: The sound of chimes, seemingly from nowhere.
+  tags: [magical]
+- sign: Arcane sigils scrawled on the ground.
+  tags: [magical]
+- sign: A single brass button, thick with verdigris.
+  tags: [undead]
+- sign: Unnatural warmth.
+  tags: [magical]
+- sign: A surface rubbed smooth by the constant passage of bodies.
+  tags: [beast]
+- sign: A chitinous exoskeleton, shed long ago.
+  tags: [cave-dweller]
+- sign: Bedrolls and sleeping-mats strewn about.
+  tags: [humanoid]
+- sign: Broken glass and the smell of liquor.
+  tags: [humanoid]
+- sign: A tingling feeling on the skin.
+  tags: [magical]
+- sign: The feeling of being watched by something unseen.
+  tags: [undead]
+- sign: A hank of fur, caught on a rough surface.
+  tags: [beast]
+- sign: A strange smell carried on a sudden breeze.
+  tags: [cave-dweller]
+- sign: A heap of refuse - broken bottles, discarded wrappings, food scraps, and broken equipment.
+  tags: [humanoid]
+- sign: An old boot, with a hole in the heel.
+  tags: [humanoid]
+- sign: A ritual offering.
+  tags: [humanoid]
+- sign: A well-chewed bone.
+  tags: [beast]
+- sign: A leathery egg-sac.
+  tags: [cave-dweller]
+- sign: The heavy musk of animal bodies.
+  tags: [beast]
+- sign: The pungent smell of stale sweat.
+  tags: [humanoid]
+- sign: Hair standing on end.
+  tags: [magical]
+- sign: Stacked firewood.
+  tags: [humanoid]
+- sign: A heap of discarded bones and offal, crawling with maggots.
+  tags: [savage]
+- sign: A stillness to the air.
+  tags: [undead]
+- sign: Dancing lights at the corners of your vision.
+  tags: [magical]
+- sign: The music of harps, the smell of spring.
+  tags: [fey]
+- sign: Drums made of badly-cured hides stretched over bone.
+  tags: [savage, humanoid]
+- sign: The smell of brimstone.
+  tags: [evil]
+- sign: Ominous chanting.
+  tags: [evil]
+- sign: Distant screaming.
+  tags: [savage]
+- sign: Tied up captives, tribute from a neighbouring tribe or victims kidnapped in a recent raid.
+  tags: [humanoid]
+- sign: A cache of food, water, and other supplies.
+  tags: [humanoid]
+- sign: An escaped slave or captive, hiding or fleeing pursuit.
+  tags: [humanoid]
+- sign: Mournful howling.
+  tags: [wolves]
+- sign: Spiderwebs, thick as twine and strong as steel.
+  tags: [spiders]
+- sign: Dried-out husks of once-living things, wrapped in cocoons of silk.
+  tags: [spiders]
+- sign: A hideous yet fascinating carved idol of a forbidden god.
+  tags: [evil]
+- sign: A still-living creature, trapped in thick webbing.
+  tags: [spiders]
+- sign: Harsh, barking laughter.
+  tags: [humanoid]
+- sign: Eerie, tittering laughter.
+  tags: [fey]
+- sign: A nest of sticks and branches.
+  tags: [bird]
+- sign: A disturbingly large feather.
+  tags: [bird]
+- sign: A disturbing layer of slime coating everything.
+  tags: [fungus]
+- sign: A weird taste to the air.
+  tags: [fungus]
+- sign: Strange and fleeting visions brought on by something in the air.
+  tags: [fungus]
+- sign: A rotting, mouldy smell.
+  tags: [fungus]
+- sign: A cache of weapons and/or ammunition.
+  tags: [humanoid]
+- sign: A nobleman's insignia on a discarded piece of clothing.
+  tags: [human, evil]
+- sign: A sacrificial victim, bound and prepared.
+  tags: [humanoid, evil]
+- sign: A wild animal tied up and waiting for slaughter.
+  tags: [humanoid]
+- sign: An absence of the usual subterranean fauna.
+  tags: [undead]
+- sign: The feeling of being watched.
+  tags: [guardian]
+- sign: Burnt sticks of incense.
+  tags: [guardian]
+- sign: Rats feasting on the remains of a meal.
+  tags: [humanoid]
+- sign: Rooms arranged according to cosmic concordances.
+  tags: [magical]
+- sign: A bullied and rejected member of the tribe.
+  tags: [savage, humanoid]
+- sign: A slave of the tribe, on an errand.
+  tags: [savage, humanoid]
+- sign: A trail of blood, as if something has been dragged.
+  tags: [beast]
+- sign: Candles arranged in a significant pattern.
+  tags: [evil, magical]
+- sign: Steps worn as if by the passage of feet over thousands of years.
+  tags: [immortal]
+- sign: Regurgitated food.
+  tags: [beast]
+- sign: A creature's young - still blind and crawling.
+  tags: [beast]
+- sign: A letter from a distant correspondent, detailing some secret dealings.
+  tags: [human]
+- sign: A musical instrument, battered but serviceable.
+  tags: [humanoid]
+- sign: Wax seals placed over doorways - a sign of protective magic.
+  tags: [guardian]
+- sign: A doorway is broken wide open, the frame widened to permit the passage of something huge.
+  tags: [giant, savage]
+- sign: An uprooted sapling, fashioned into a spear.
+  tags: [giant, savage]
+- sign: Crude paintings daubed on the walls.
+  tags: [humanoid]
+- sign: An incantation in a long-dead language carefully inscribed on a wall.
+  tags: [magical, guardian]
+- sign: Rich furnishings standing untouched by the ravages of time.
+  tags: [magical, guardian]
+- sign: A crudely-made doll or mannekin.
+  tags: [humanoid]
+- sign: The heavy feeling of long-undisturbed air.
+  tags: [immortal]
+- sign: Whispering voices inside your mind.
+  tags: [psychic]
+- sign: A sudden strong headache.
+  tags: [psychic]
+- sign: The feeling that your thoughts are being observed.
+  tags: [psychic]
+- sign: The words "KEEP OUT" scrawled on a wall.
+  tags: [humanoid, dungeon-explorer]
+- sign: Countless tally-marks carved into a flat surface.
+  tags: [immortal]
+- sign: Food set out to be eaten, still fresh and undecayed.
+  tags: [immortal, magical, guardian]
+- sign: The rattling of dry bones.
+  tags: [undead, guardian]
+- sign: The buzzing of flies.
+  tags: [swamp]
+- sign: A crawling sensation in the back of the mind.
+  tags: [abberation]
+- sign: A deep silence.
+  tags: [immortal, guardian]
+- sign: Weirdly glowing algae coating the walls.
+  tags: [underdark]
+- sign: The smell of oil and grease.
+  tags: [construct]
+- sign: Unnatural warmth to the air.
+  tags: [magical, fire]
+- sign: A blazing forge and red-hot metal.
+  tags: [fire]
+- sign: The sound of picks on stone.
+  tags: [earth]
+- sign: Fresh rubble.
+  tags: [earth]
+- sign: Wet footprints.
+  tags: [water]
+- sign: An unexpected gust of wind.
+  tags: [air]
+- sign: Frost forming on stone surfaces.
+  tags: [cold]
+- sign: Breath fogging in the air.
+  tags: [cold]
+- sign: Bound documents - maps, deeds and titles, or correspondence.
+  tags: [human]
+- sign: Leaf litter or dirt tracked in from outside.
+  tags: [dungeon-explorer]
+- sign: Several dead bodies lying in a heap, blood seeping from savage wounds.
+  tags: [savage]
+- sign: A severed limb, and garish blood-stains.
+  tags: [savage]
+- sign: A body laid out for burial.
+  tags: [humanoid]
+- sign: A scattered line of salt on the floor.
+  tags: [guardian]
+- sign: Scorch marks.
+  tags: [fire]
+- sign: A coating of soot.
+  tags: [fire]
+- sign: The room is enormous, the doorways wide enough for a wagon.
+  tags: [giant]
+- sign: Preserved meats hang on hooks from the ceiling.
+  tags: [humanoid]
+- sign: Bottles of liquor lie empty on the floor.
+  tags: [humanoid]

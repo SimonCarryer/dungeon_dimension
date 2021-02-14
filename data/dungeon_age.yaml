@@ -1,0 +1,339 @@
+flood:
+  tags:
+   - water
+  rooms:
+    - description: The room is flooded with waist-deep water.
+      tags: [uninhabitable, underwater]
+    - description: Water runs down the wall of the room.
+    - description: The entire room is submerged beneath ice-cold water.
+      tags: [uninhabitable, underwater]
+    - description: A great pool of water fills one corner of the room.
+    - description: Dirt and debris are heaped against the walls of the room, the remnants of a past flood.
+    - description: The air is heavy with moisture, and water drips from the ceiling.
+    - description: The floor is covered in muddy debris - ancient furnishings, driftwood, and so on (difficult terrain).
+      tags: [difficult]
+    - description: The floor of this room is covered in an ankle-deep layer of mud.
+    - description: A section of floor has collapsed, and a black and icy underground river flows beneath.
+      tags: [cave-entrance]
+    - description: This room is filled with knee-deep, muddy water. Parts of the floor have collapsed, and standing in the wrong place can lead to a plunge into the pitch-black depths.
+      tags: [cave-entrance, uninhabitable, hazard]
+    - description: A great torrent of water rushes through this room. Crossing the room requires wading through the strong current - an Athletics check (difficulty 12) is required to make any progress.
+      tags: [difficult]
+    - description: Stairs descend from this room into a black pool of water - the lower levels of this dungeon are completely submerged.
+  passages:
+    - description: The passage is filled with waist-deep water.
+      weight: 3
+    - description: A section of this passage is completely submerged beneath floodwaters, necessitating a short swim.
+      weight: 4
+    - description: Water runs freely down this passage, turning stairways into waterfalls, corridors into rivers.
+      weight: 2
+    - description: The floor of the corridor is covered in fine silt, sticky and wet.
+      weight: 1
+    - description: There is a strong smell of mould in this passageway.
+      weight: 1
+    - description: Ankle-deep puddles fill sections of this corridor
+      weight: 1
+    - description: Most of this corridor is completely submerged - too far to swim for anyone who cannot breathe underwater.
+      weight: 4
+    - description: What appears to be a small puddle in this corridor is actually a deep hole, filled with cloudy water.
+      weight: 2
+
+earthquake:
+  tags:
+  rooms:
+    - description: A section of floor has collapsed into a vast black void.
+    - description: A collapsed section of wall spews a vile gas into the room - Constitution save (Difficulty 11) or be Poisoned for 1 hour.
+      tags: [uninhabitable, hazard, cave-entrance]
+    - description: One wall has a giant fissure - deep, but too narrow to explore.
+      tags: [cave-entrance]
+    - description: The floor of this room has unstable patches, which might give way at any moment. Below is a natural cavern, 30' deep.
+      tags: [hazard]
+    - description: A heap of boulders has tumbled through an archway in one wall, from a passage which collapsed long ago.
+    - description: A great crack runs across the floor, and emits a chilly breeze.
+      tags: [cave-entrance]
+    - description: Huge blocks of stone have tumbled from the ceiling, making the floor of this room extremely treacherous.
+      tags: [difficult]
+    - description: The collapse of the ceiling has turned this once-large room into a network of narrow passages.
+    - description: Fine dust and dirt filters down from the ceiling and covers everything in this room. The dust is stirred up by any hasty movement. The dust clouds obscure the room.
+    - description: Several passages lead off from this room, but they have completely collapsed. No amount of digging will clear them.
+  passages:
+    - description: The door-frame is partly collapsed and twisted, jamming the door shut.
+      weight: 4
+    - description: The passageway is partly-collapsed, with only room to crawl.
+      weight: 3
+    - description: The passage is collapsed, negotiable only by sustained digging and crawling.
+      weight: 4
+    - description: The ceiling of the passageway is in danger of collapsing! Any rough treatment will bring it down.
+      weight: 2
+    - description: A slight breeze blows from this passageway.
+      weight: 1
+    - description: A 10' wide chasm has opened across the middle of this passageway.
+      weight: 4
+    - description: The columns which once supported the ceiling have toppled, and must be clambered over.
+      weight: 2
+    - description: The sound of rushing water can be heard in this passageway.
+      weight: 1
+
+haunted:
+  tags:
+    - shadowfell
+  rooms:
+    - description: This room is unnaturally cold, and torchlight seems to dim and flicker.
+    - description: Black shadows fill this room, seeming to flee the light reluctantly, and creep back when unobserved.
+    - description: Barely-perceptible voices whisper in a long-dead language.
+    - description: A ghostly voice whispers right on the edge of hearing.
+    - description: Mournful faces peer from dark corners, vanishing in the light.
+    - description: The oppressive atmosphere of this room leeches the life-force from intruders - Make a constitution save each round (Difficulty 11) or take 1d4 necrotic damage.
+      tags: [uninhabitable, hazard]
+    - description: Sound in this room seems unnaturally quiet and muffled.
+    - description: A distant shrieking can be heard - possibly the wind?
+    - description: This room is permanently engulfed in darkness which is only dispelled by magical light.
+      tags: [uninhabitable]
+  passages:
+    - description: Insubstantial hands reach from the passage walls.
+      weight: 2
+    - description: The sound of footsteps can be heard, always just around the next corner.
+      weight: 1
+    - description: The passageway seems to turn in on itself. There's a 50% chance that a group travelling down the passage ends up back in the room they just left.
+      weight: 3
+    - description: Wispy spectres of long-dead inhabitants pass through this passage - they do not interact with the living.
+      weight: 2
+    - description: A voice seems to call out for help from the room ahead.
+      weight: 1
+
+fungus:
+  tags:
+    - fungus
+  rooms:
+    - description: White mycelium crawls across the walls and floor of this room. It is spongy underfoot.
+    - description: Huge colourful mushrooms sprout from the walls and floor. Among the mushrooms are 1d6 Shriekers.
+      tags: [uninhabitable]
+    - description: Glowing yellow-green fungus grows like great platters from one wall, creating dim lighting throughout the room.
+    - description: Clouds of spores fill this room from huge fruiting bodies of giant mushrooms. The spores are toxic - Constitution save at difficulty 11 or be poisoned for 1 hour.
+      tags: [uninhabitable, hazard]
+    - description: Yellow mold covers the floor of this room.
+      tags: [uninhabitable, hazard]
+    - description: Huge mushrooms like marble pillars stretch to near the ceiling of this room.
+    - description: Every surface of this room is coated in a disgusting stringy slime.
+  passages:
+    - description: This passage is choked with thick white strands of mycelium, making it very difficult to navigate.
+      weight: 3
+    - description: The floor of this passage is covered in a thick slime that seems to crawl away underfoot.
+      weight: 1
+    - description: A stretch of this passage is coated in Yellow Mold.
+      weight: 4
+    - description: A clump of brown mold covers one end of this passage.
+      weight: 4
+    - description: Plate-like mushrooms growing from the walls of this passageway make it a narrow squeeze.
+      weight: 2
+
+age:
+  tags:
+  rooms:
+    - description: Stalagmites and stalactites have formed on the floors and ceilings.
+    - description: One wall is covered in a thick carpet of white mushrooms.
+    - description: Cobwebs crowd the ceiling and coat the walls in sheets.
+    - description: Shiny black beetles carpet the floor.
+    - description: Long-legged insects scuttle across the walls.
+    - description: The room is filled with patches of mold.
+      tags: [uninhabitable, hazard]
+    - description: A mass of mold covers one wall.
+      tags: [uninhabitable, hazard]
+    - description: An ancient fire has left scorching and soot throughout the room.
+    - description: A stream of water runs through this room, a branch of an underground river which has worn through the walls.
+      tags: [cave-entrance]
+    - description: The wooden floor of the second level of this room has rotted away to nothing, leaving doorways suspended 10 feet off the ground.
+    - description: Thick layers of dust have accumulated in the corners of this room.
+    - description: A deep well in this room breathes foul-smelling air. Its depths cannot be plumbed.
+      tags: [cave-entrance, water]
+    - description: The only traces of ancient furnishings are vague outlines of rust and rot.
+    - description: An iron-grilled drain in the floor of this room has rusted to nothing.
+      tags: [cave-entrance]
+    - description: There is a terrible smell in this room.
+  passages:
+    - description: The door is jammed shut - swollen with age.
+      weight: 4
+    - description: The passageway is twisting and narrow, the ceiling low.
+      weight: 2
+    - description: The door is locked, the key long-gone.
+      weight: 4
+    - description: The passageway is long-disused, choked by cobwebs.
+      weight: 4
+    - description: A Green Slime lurks above the entrance to this passage.
+      weight: 3
+    - description: The wooden stairway in this passage has rotted, leaving nothing but holes in the stone walls, and a bare, steep slope.
+      weight: 2
+    - description: An iron ladder here has rusted to nothing, leaving an empty shaft.
+      weight: 3
+    - description: The doors in this passageway have all rotted to the point that they are flimsy and crumbling.
+      weight: 1
+    - description: From one side this doorway appears to be completely blocked, but from the other the debris can be cleared to free the door.
+      weight: 4
+    - description: Deep drifts of dust and debris make it obvious if anyone has recently passed through this corridor.
+      weight: 1
+
+habitation:
+  tags: 
+  rooms:
+    - description: Soot blackens the ceiling, and there are the remains of a fire-pit in the middle of the room.
+    - description: Chisel-marks reveal where precious metals or gemstones have been torn from their housing.
+    - description: The faces of several statues have been attacked with a chisel.
+    - description: Graffiti in an ancient language has been scratched into the walls.
+    - description: Human bones are scattered haphazardly around this room, perhaps evidence of an ancient tragedy.
+    - description: Most of the room is filled with stacked junk - crumbling furniture, boxes of rotted linens, bales of reeds and so on.
+    - description: A heap of household refuse - pot shards, animal bones and broken tools - fills a corner of the room.
+    - description: Smashed shards of pottery cover the floor, along with a handful of low-value coins.
+    - description: A narrow trench has been dug in one corner of this room. It is now half-filled with refuse and dust.
+    - description: Storage vessels of clay, stone, and crumbling wood are stacked against one wall, their contents long lost to age.
+  passages:
+    - description: This passage has been entirely blocked off by haphazardly stacked furniture.
+      weight: 4
+    - description: This passage seems to have been deliberately barricaded long ago.
+      weight: 4
+    - description: Someone has cleared a path through the rubble which once filled this passageway.
+      weight: 1
+    - description: An ancient oil-lamp lies discarded in this passageway.
+      weight: 1
+
+cave-age:
+  tags:
+  rooms:
+    - description: Stalagmites and stalactites have formed on the floors and ceilings.
+    - description: One wall is covered in a thick carpet of white mushrooms.
+    - description: Shiny black beetles carpet the floor.
+    - description: Long-legged insects scuttle across the walls.
+    - description: Cobwebs crowd the ceiling and coat the walls in sheets.
+    - description: Tunnelling creatures have burst through the wall of this room.
+      tags: [cave-entrance]
+    - description: The room is filled with patches of Yellow Mold.
+      tags: [uninhabitable, hazard]
+    - description: A mass of Brown Mold covers one wall.
+      tags: [uninhabitable, hazard]
+    - description: An ancient fire has left scorching and soot throughout the room.
+    - description: A stream of water runs through this room, a branch of an underground river which has worn through the walls.
+      tags: [cave-entrance]
+    - description: A section of floor has collapsed into a vast black void.
+    - description: A collapsed section of wall spews a vile gas into the room - Constitution save (Difficulty 11) or be Poisoned for 1 hour.
+      tags: [uninhabitable, hazard, cave-entrance]
+    - description: One wall has a giant fissure - deep, but too narrow to explore.
+      tags: [cave-entrance]
+    - description: The floor of this room has unstable patches, which might give way at any moment. Below is a natural cavern, 30' deep.
+      tags: [hazard]
+    - description: A great crack runs across the floor, and emits a chilly breeze.
+      tags: [cave-entrance]
+    - description: Huge blocks of stone have tumbled from the ceiling, making the floor of this room extremely treacherous.
+      tags: [difficult]
+  passages:
+    - description: The passageway is twisting and narrow, the ceiling low.
+      weight: 2
+    - description: A Green Slime lurks above the entrance to this passage.
+      weight: 3
+    - description: The passageway is partly-collapsed, with only room to crawl.
+      weight: 3
+    - description: The passage is collapsed, negotiable only by sustained digging and crawling.
+      weight: 4
+    - description: The ceiling of the passageway is in danger of collapsing! Any rough treatment will bring it down.
+      weight: 2
+    - description: A slight breeze blows from this passageway.
+      weight: 1
+    - description: A 10' wide chasm has opened across the middle of this passageway.
+      weight: 4
+
+
+volcano:
+  tags:
+    - fire
+  rooms:
+    - description: A pool of lava floods half this room - it is lit with a ruddy glow, and the air is stifling hot.
+    - description: Jets of steam periodically blast from cracks in the floor. On a d6 roll of 5 or 6 each round, all creatures must make a Dexterity save (Difficulty 15) or take 2d10 fire damage.
+      tags: [hazard, uninhabitable, cave-entrance]
+    - description: This chamber is periodically shaken by some huge subterranean force.
+    - description: Sulphurous pools of water bubble throughout this room, and thick steam obscures everything beyond 10'.
+    - description: One wall of this room opens out into a massive magma chamber. It is lit with dim light, and the heat is powerful.
+      tags: [cave-entrance]
+    - description: The floor of this room is crumbling into a pit of magma below.
+      tags: [cave-entrance]
+    - description: Blinding smoke pours through cracks in the floor of this room, making it impossible to see any distance.
+      tags: [hazard, uninhabitable]
+  passages:
+    - description: A 10' wide river of lava runs across this passageway.
+      weight: 4
+    - description: Periodic jets of steam turn this passageway into a deadly obstacle course - make a Dex save (DC15) or take 2d10 fire damage.
+      weight: 4
+    - description: This passage is filled with choking gas, making it impassable to most creatures.
+      weight: 4
+    - description: The air in this passageway is stifling hot.
+      weight: 2
+    - description: There's a rumbling sound in this passageway.
+      weight: 1
+
+cold:
+  tags:
+    - cold
+  rooms:
+    - description: Ice has crept down the walls of this room, turning it into a glittering marvel.
+    - description: Slippery ice covers the floor of this room, making it treacherous to navigate.
+      tags: [difficult]
+    - description: One wall of this room is made entirely of solid ice.
+    - description: The shifting of a glacier has opened a huge crevasse in the floor of this room, its icy depths untouched by torchlight.
+      tags: [cave entrance]
+    - description: Icicles hang like stalactites from the ceiling.
+  passages:
+    - description: A solid plug of ice blocks this passageway. It could take hours to chip it away.
+      weight: 4
+    - description: Slippery ice on a steep section turns this passageway into a potentially deadly trap. Make an athletics check or take 2d6 bludgeoning damage.
+      weight: 3
+    - description: Ice-cold wind blows from this passageway.
+      weight: 1
+    - description: The walls of this passageway are coated with ice.
+      weight: 1
+    - description: Drifts of snow have nearly blocked this passageway.
+      weight: 2
+
+illusion:
+  tags:
+    - illusion
+  rooms:
+    - description: Flowering fruit-trees fill this room and scent the air with their pollen. Petals drift on a gentle breeze. It is an elaborate illusion.
+    - description: Lavishly-dressed illusory figures dance throughout this room, to the music of pipes and fiddles.
+    - description: The walls seem to writhe and shift, one moment near, the next far away.
+    - description: The floor seethes with venomous snakes, but they are nothing more than convincing illusions.
+    - description: Cackling laughter rings in your ears. The source is unclear.
+    - description: Roll a random encounter for this room. The attackers are illusory.
+    - description: The floor of this room is covered with the illusion of a lush meadow, with flowers and buzzing insects.
+    - description: A cruel illusion in this room makes living creatures appear as rotting corpses.
+    - description: A magic effect in this room causes all speech to sound like unintelligible babbling.
+    - description: A cunning illusion in this room causes explorers to lose their way. When you leave this room, roll randomly to determine which exit is taken.
+    - description: As soon as you enter this room, water begins to pour from the ceiling, and it rapidly fills. The water is merely an illusion.
+  passages:
+    - description: This passage seems to loop back on itself, the product of a cunning illusion. Roll randomly which exit you arrive at.
+      weight: 2
+    - description: Anyone entering this passage sees an illusory copy of themselves coming in the opposite direction.
+      weight: 2
+    - description: A voice in this passage calls out "Turn back! You're going the wrong way"
+      weight: 1
+    - description: The entrance to this passageway appears to be a huge mouth set in the wall.
+      weight: 2
+    - description: The entrance to this passage is covered by the illusion of a plain wall.
+      weight: 3
+
+organic:
+  tags:
+    - organic
+  rooms:
+    - description: Chitinous secretions coat the walls and floor, giving it a horrid organic appearance.
+    - description: Thick slime coats everything in this room, and it seems to crawl towards living things.
+    - description: A giant, leech-like mouth has formed in the floor of this room, exhaling a noxious odour.
+    - description: Eyeballs sprout from the walls of this room, and follow any movement.
+    - description: Mucous bubbles out of several organic-looking holes in the ceiling.
+    - description: There are puckered orifices in the walls of this room.
+    - description: Disgusting pustules have formed on the walls of this room.
+  passages:
+    - description: This passage is wet and soft, like an enormous throat.
+      weight: 2
+    - description: This passageway is blocked by thin fleshy membranes.
+      weight: 4
+    - description: Air rushes into and out of this passageway, as if it is breathing.
+      weight: 1
+    - description: This passageway is ribbed with chitinous extrusions.
+      weight: 1

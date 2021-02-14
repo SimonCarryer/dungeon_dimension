@@ -1,0 +1,61 @@
+meroe:
+  rooms:
+    - name: Entrance
+      description: A dome-roofed chamber with a broad stone stairway leading to the surface.
+      tags: [entrance]
+    - name: Collapsed Dome
+      description: This chamber has collapsed, and is open to the sky. The floor is covered in heaps of rubble and stone blocks.
+      tags: [entrance]
+    - name: Entrance
+      description: A great cathedral-like space carved into the side of a cliff and open at one end.
+      tags: [entrance]
+    - name: Cave Mouth
+      description: A natural cave-mouth has been chiseled and carved into an entry-hall.
+      tags: [entrance]
+    - name: Lesser Crypt
+      description: Niches in the walls of this room hold long-dead bodies.
+      tags: [guarded, treasure]
+    - name: Hallway
+      description: A bare stone hallway, wide and long.
+    - name: Cistern
+      description: A deep hole in the middle of this room is filled with water.
+      tags: [water]
+    - name: Statue Room
+      description: This room is dominated by several large statues glorifying the achievements of a long-dead ruler.
+      tags: [guarded, central]
+    - name: Library
+      description: Clay tablets are stacked around the walls of this room.
+      tags: [library, secret]
+    - name: Divination Room
+      description: There is a huge stone bowl in the center of this room, standing waist high.
+      tags: [secret, divination]
+    - name: Treasure Room
+      description: A vault for storing treasures.
+      tags: [secret, treasure]
+    - name: Trophy Room
+      description: This room displays the riches plundered in a long-ago war.
+      tags: [treasure, guarded]
+    - name: Empty
+      description: This room is empty.
+    - name: False Crypt
+      description: This room appears to be a crypt, but all the tombs are empty.
+      tags: [dead-end, trap]
+    - name: Vestibule
+      description: There are several benches here for ritual preparations.
+      tags: [central]
+    - name: Tribute Room
+      description: Urns in this room hold tributes offered to the deceased.
+      tags: [treasure, important, guarded]
+    - name: Lesser Crypt
+      description: There are several sarcophagi laid out in this room, containing long-dead remains.
+      tags: [treasure, important, guarded]
+    - name: Lesser Crypt
+      description: This seems to be the burial chamber for a consort or adviser.
+      tags: [important, treasure]
+  secret passages:
+    - Behind a statue there is a hidden entrance to this secret passage.
+    - This passageway is concealed behind a hidden panel.
+    - A stone slab can be lifted to expose the entrance to this passage.
+    - The door to this passageway is closed and seems to be sealed somehow.
+    - This passageway seems to have been deliberately collapsed long ago, but a narrow gap through the stone blocks remains.
+

@@ -1,0 +1,72 @@
+golden age:
+  materials:
+    - lapis-lazuli
+    - obsidian
+    - ivory
+  methods:
+    - inlaid
+    - delicately carved
+    - painted
+  shapes:
+    - chariot
+    - sceptre
+    - man
+    - winged man
+    - woman
+    - eye
+    - crown
+  colours:
+    - white
+    - black
+  patterns:
+    - hieroglyphs
+    - human figures
+  extras:
+    - The ceiling is high and vaulted.
+    - The doorways are arched, surrounded by carved ${pattern}.
+    - The room seems to have been chiseled from raw stone.
+fallen age:
+  materials:
+    - sandstone
+    - granite
+  methods:
+    - carved
+    - painted
+  shapes:
+    - ibis
+    - ram
+    - dog
+    - animal-headed man
+    - cat
+    - serpent
+  colours:
+    - green
+  patterns:
+    - animals
+    - script
+  extras:
+    - The low ceiling is supported by pillars carved with ${pattern}.
+    - A carved ${shape} watches over each narrow doorway.
+    - The masonry of the walls is crumbling.
+sun worship:
+  materials:
+    - beaten copper
+    - bronze
+  methods:
+    - inlaid
+    - carved
+  shapes:
+    - sun
+    - winged sun
+    - disc
+    - chariot
+  colours:
+    - golden yellow
+  patterns:
+    - sun rays
+    - script
+    - hieroglyphs
+  extras:
+    - A huge ${material} ${shape} is affixed to the ceiling.
+    - One wall is dominated by a bas-relief ${shape}.
+  

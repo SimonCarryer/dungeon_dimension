@@ -1,0 +1,113 @@
+floral:
+  methods:
+    - painted
+    - inlaid
+  patterns:
+    - roses
+    - vines
+    - leaves
+    - flowers
+    - petals
+    - thorns
+    - filigree
+  shapes:
+    - rose
+    - flower
+    - tree
+  materials:
+    - rosewood
+    - enamel
+    - plaster
+  colours:
+    - purple
+    - moss-green
+    - rosy
+    - deep-red
+    - crimson
+  extras:
+    - Ivy is growing over the walls of this room.
+    - A potted rose sits in the corner of this room.
+    - The smell of flowers fills your nose.
+    - Petals are strewn on the floor.
+    - Brambles have ensnared several captive victims.
+ominous:
+  methods:
+    - carved
+    - scrawled
+  colours:
+    - black
+    - white
+    - grey
+    - sickly
+  patterns:
+    - skulls
+    - faces
+    - tally-marks
+  shapes:
+    - skull
+    - bone
+    - face
+    - eye
+    - hourglass
+  materials:
+    - bone
+    - stone
+    - obsidian
+    - marble
+  extras:
+    - Dried blood covers the floor.
+    - Someone has scrawled meaningless words on the walls here.
+    - Hooks on chains hang from the ceiling.
+    - There is an enormous gong mounted on one wall.
+    - Fresh gore is spattered on one wall.
+catholic:
+  methods:
+    - carved
+    - inscribed
+  colours:
+    - crimson
+    - white
+    - gold
+  patterns:
+    - saints
+    - crosses
+    - bible scenes
+  shapes:
+    - cross
+    - crucifix
+    - saint
+    - shepherd's crook
+  materials:
+    - ivory
+    - silk
+    - marble
+    - stained glass
+  extras:
+    - There is a smell of incense in the air.
+    - Chanting can be heard.
+    - A bank of candles brightens the room.
+egyptian:
+  methods:
+    - carved
+    - painted
+  colours:
+    - blue
+    - turquoise
+  patterns:
+    - beetles
+    - hieroglyphs
+    - geometric patterns
+    - animal-headed figures
+  shapes:
+    - beetle
+    - sun
+    - chariot
+    - jackal-headed man
+    - ibis
+  materials:
+    - lapis-lazuli
+    - sandstone
+    - onyx
+  extras:
+    - Sandstone pillars line the walls of this room.
+    - Bas relief carvings of animal-headed figures cover the walls.
